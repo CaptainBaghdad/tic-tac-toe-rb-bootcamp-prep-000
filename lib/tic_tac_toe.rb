@@ -56,7 +56,7 @@ def turn(board)
   if input_to_index(inni) < 0 || input_to_index(inni) == nil
     puts "Please chose a number 1-9."
     
-    move(board,inni)
+    move(board,inni,token)
     display_board(board)
   end 
   
