@@ -32,3 +32,10 @@ def move(board, pos, token = "X")
   
   
 end 
+
+
+
+
+
+
+
