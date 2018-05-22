@@ -23,3 +23,10 @@ def input_to_index(user_input)
   return a-1
   
 end 
+
+
+
+def move(board, pos)
+  
+  
+end 
