@@ -27,6 +27,7 @@ end
 
 
 def move(board, pos, token = "X")
+  input_to_index(pos)
   
   
 end 
