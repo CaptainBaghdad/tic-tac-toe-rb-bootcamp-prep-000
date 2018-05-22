@@ -59,7 +59,7 @@ def turn(board)
     
   end 
   
-  move(board,inni,token)
+  move(board,inni)
     display_board(board)
   
   
