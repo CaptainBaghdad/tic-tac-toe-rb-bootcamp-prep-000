@@ -26,10 +26,8 @@ end
 
 
 
-def move(board, pos, token = "X")
-  if input_to_index(pos) < 0 
-    return false
-  end 
+def move(board, pos)
+  
   
 end 
 
