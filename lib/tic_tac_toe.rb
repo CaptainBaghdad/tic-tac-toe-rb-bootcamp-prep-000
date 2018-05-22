@@ -19,6 +19,9 @@ end
 
 
 def input_to_index(user_input)
+  if user_input.to_i == nil 
+    return -1 
+  end
   a = user_input.to_i 
   return a-1
   
