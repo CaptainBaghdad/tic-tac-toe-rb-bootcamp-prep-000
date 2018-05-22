@@ -35,6 +35,14 @@ def move(board, pos ,token)
 end 
 
 
+def position_taken?(board,pos)
+  board[pos] != " "
+  
+  
+  
+end 
+
+
 
 
 
