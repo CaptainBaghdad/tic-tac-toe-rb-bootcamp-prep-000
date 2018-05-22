@@ -57,8 +57,9 @@ def turn(board)
     puts "Please chose a number 1-9."
     
     move(board,inni)
+    display_board(board)
   end 
-  display_board(board)
+  
   
   
   
