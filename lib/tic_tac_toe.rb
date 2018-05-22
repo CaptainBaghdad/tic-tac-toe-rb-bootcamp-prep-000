@@ -52,15 +52,18 @@ end
 def turn(board) 
   puts "Please chose a number 1-9."
   inni = gets.strip
+  index = input_to_index(inni)
   
-  if input_to_index(inni) < 0 || input_to_index(inni) == nil
+  if index < 0 
     puts "Please chose a number 1-9."
     inni = gets.strip
     
   end 
   
-   valid_move(board,inni)
+   if valid_move?(board,index)
+     
     display_board(board)
+  end 
   
   
 end  
