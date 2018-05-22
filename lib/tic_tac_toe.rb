@@ -43,6 +43,13 @@ def position_taken?(board,pos)
 end 
 
 
+def valid_move?(board, pos)
+   board[pos] == " " && pos >= 0  
+  
+  
+end  
+
+
 
 
 
