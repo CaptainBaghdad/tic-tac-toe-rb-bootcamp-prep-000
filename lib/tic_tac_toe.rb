@@ -29,8 +29,8 @@ end
 
 
 
-def move(board, pos)
-  
+def move(board, pos ,token)
+  board[pos] = token
   
 end 
 
