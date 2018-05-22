@@ -47,7 +47,27 @@ def valid_move?(board, pos)
    board[pos] == " " && pos >= 0  
   
   
+end 
+
+def turn(board) 
+  puts "Please chose a number 1-9."
+  inni = gets.strip
+  
+  if input_to_index(inni) < 0 || input_to_index(inni) == nil
+    puts "Please chose a number 1-9."
+    
+    move(board,inni)
+  end 
+  display_board(board)
+  
+  
+  
 end  
+
+
+
+
+
 
 
 
